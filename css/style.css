@@ -9,24 +9,29 @@
     width: 25px;
     height: 25px;
 }
- .custom-img img{
-    border: 5px solid black;
-    border-radius: 25%;
-    margin: 5px;
- }
+
 .custom-welcomeDiv{
+    width: auto;
     background-color: rgb(73, 230, 99);
     border: 5px solid black;
     border-radius: 5px;
 }
+.custom-nav{
+    margin-left: 10px;
+    width: auto;
+}
  .welcomeTxt{
-    height: 250px;
+    margin-left: 25%;
+    margin-top: 25%;
+    margin-bottom: 10px;
     max-height: 250px;
     max-width: 250px;
-    justify-content: center;
-    align-items: center; 
-    text-align: center; /
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 5px;
  }
  .welcomeTxt p {
-    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 25% 2.5%;
  }

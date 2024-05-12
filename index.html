@@ -6,23 +6,62 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+
     <div class="jumbotron">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="col-xs-offset-3 col-md-6 col-md-offset-0">
                     <h1>EUAN PHILLIPS</h1>
                 </div>
-                <div class="col-md-4">
-                    <p>I am a final year computer science student at Swansea University</p>
+                <div class="col-md-4 custom-meInfo">
+                    <p>I am a final year computer science student at Swansea University.
+                        Passionate about problem solving and programming. </p>
+                </div>
+                <div class="col-md-2">
+                    <a class="icons" href="https://github.com/EPhill98" target="_blank">
+                        <img src="media/icons/github-mark.png" width="30px" height="30px">
+                    </a>
+                    <a class="icons" href="https://www.linkedin.com/feed/" target="_blank">
+                        <img src="media/icons/LI-In-Bug.png" width="30px" height="30px">
+                    </a>
+                    <a class="icons" href="mailto:euan.98@live.co.uk">
+                        <img src="media/icons/icons8-email-50.png" width="30px" height="30px">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">My Site</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Work Experice</a></li>
+                <li><a href="#">Sports and Hobbies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row custom-welcomeDiv">
+        <div class="col-md-4 col-md-offset-1 col-xs-offset-3 text-center">
+            <div class="welcomeTxt">
+                <p>Welcome to my website. Feel free to look around and get to know more about me.</p>
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-1 col-xs-offset-1 custom-img">
+            <img id="homeImg" src="media/photos/fujiPic.JPG" alt="Picure of Euan at mt Fuji" width="400" height="250">
+        </div>
+    </div>
 </body>
+<script src="javascript/homepage.js"></script>
 
 </html>

@@ -1,0 +1,32 @@
+.custom-meInfo {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.icons {
+    max-width: 25px;
+    max-height: 25px;
+    width: 25px;
+    height: 25px;
+}
+ .custom-img img{
+    border: 5px solid black;
+    border-radius: 25%;
+    margin: 5px;
+ }
+.custom-welcomeDiv{
+    background-color: rgb(73, 230, 99);
+    border: 5px solid black;
+    border-radius: 5px;
+}
+ .welcomeTxt{
+    height: 250px;
+    max-height: 250px;
+    max-width: 250px;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; /
+ }
+ .welcomeTxt p {
+    padding-top: 100px;
+ }

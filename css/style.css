@@ -2,9 +2,11 @@
     text-align: center;
     padding-top: 15px;
 }
-.custom-icons{
+
+.custom-icons {
     margin-bottom: 10px;
 }
+
 .icons {
     max-width: 25px;
     max-height: 25px;
@@ -12,17 +14,40 @@
     height: 25px;
 }
 
-.custom-welcomeDiv{
+.custom-welcomeDiv {
     width: auto;
 }
-.custom-nav{
+
+.custom-nav {
     width: 100%;
 }
 
- iframe{
-    border: 5px solid white;
- }
-
- h1 {
+.custom-meIntro {
+    margin-top: 25%;
     text-align: center;
- }
+}
+
+.custom-introDiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .custom-meIntro {
+        margin-top: 10px;
+        text-align: justify;
+    }
+
+}
+
+iframe {
+    border: 5px solid white;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}

@@ -1,36 +1,16 @@
-.card{
+.card {
     margin: 10px;
     border: solid 5px black;
     border-radius: 5px;
 }
-.card-header, .card-footer {
-    background-color: rgb(52, 203, 52);
-}
-.card-body{
-    background-color: rgb(49, 109, 49);
-}
 
-body,
-        html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-            overflow: auto;
-
-        }
-
-
-#p5-canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+.card-header,
+.card-footer {
+    background-color: white;
 }
 
-.content {
-    position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    z-index: 1;
+.card-body {
+    background-color: grey;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
 }

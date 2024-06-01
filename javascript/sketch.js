@@ -9,6 +9,7 @@ let blst = [];
 let count = 0;
 
 function setup() {
+
     canvas = createCanvas(windowWidth, windowHeight);
     canvas.id('p5-canvas'); // Assign an ID to the canvas
     canvas.position(0, 0);
@@ -44,7 +45,7 @@ function draw() {
 
 function addNewCircle() {
     if (xlst.length < 50) {
-        xlst[count] = random(width - 15); // Random x-coordinate within canvas width
+        xlst[count] = random(15, width); // Random x-coordinate within canvas width
         ylst[count] = 20;
         stepYLst[count] = random(-1, 1); // Give some variation in vertical movement
         stepXLst[count] = random(-1, 1); // Random horizontal step

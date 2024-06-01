@@ -1,3 +1,35 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+
+#p5-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 1;
+}
+
+.custom-head{
+    background-color: white;
+    z-index: 1;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
 .custom-meInfo {
     text-align: center;
     padding-top: 15px;
@@ -17,11 +49,10 @@
 .custom-welcomeDiv {
     width: auto;
 }
-
-.custom-nav {
-    width: 100%;
+.img-fluid{
+    border: solid 2px black;
+    border-radius: 5px;
 }
-
 .custom-meIntro {
     margin-top: 25%;
     text-align: center;
@@ -30,18 +61,6 @@
 .custom-introDiv {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-@media screen and (max-width: 991px) {
-    .custom-meIntro {
-        margin-top: 10px;
-        text-align: justify;
-    }
-
-}
-
-iframe {
-    border: 5px solid white;
 }
 
 h1 {

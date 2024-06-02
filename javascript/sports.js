@@ -11,14 +11,14 @@ s1 = new SportHobbie("Volleyball",
     `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi exercitationem ducimus neque maiores asperiores
                         culpa ratione facere magni, repudiandae vel, dolores ab, dolorem aliquid dignissimos nobis ea perferendis
                         laboriosam illum!`,
-    "/Users/euanphillips/Desktop/mySite/media/photos/volleyball.jpeg",
-    "/Users/euanphillips/Desktop/mySite/media/photos/volleyball.jpeg");
+    "../media/photos/volleyball.jpeg",
+    "../media/photos/v1.JPG");
 s2 = new SportHobbie("Bouldering",
     `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi exercitationem ducimus neque maiores asperiores
                         culpa ratione facere magni, repudiandae vel, dolores ab, dolorem aliquid dignissimos nobis ea perferendis
                         laboriosam illum!`,
-    "../media/photos/hkhike.jpg",
-    "../media/photos/hkhike.jpg");
+    "../media/photos/b1.jpg",
+    "../media/photos/b2.HEIC");
 
 s3 = new SportHobbie("Hiking + Outdoor",
     `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi exercitationem ducimus neque maiores asperiores

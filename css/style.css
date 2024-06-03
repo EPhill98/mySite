@@ -70,3 +70,8 @@ h1 {
 h2 {
     text-align: center;
 }
+
+.icon{
+    font-size: 2rem;
+    color: black;
+}

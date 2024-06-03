@@ -18,8 +18,6 @@ html {
 
 .content {
     position: relative;
-    margin-top: 10%;
-    margin-bottom: 10%;
     z-index: 1;
 }
 
@@ -54,7 +52,6 @@ html {
     border-radius: 5px;
 }
 .custom-meIntro {
-    margin-top: 25%;
     text-align: center;
 }
 
@@ -74,4 +71,12 @@ h2 {
 .icon{
     font-size: 2rem;
     color: black;
+    margin: 5px;
+}
+
+.iconsBox {
+    background-color: white;
+    width: auto;
+    border: 5px solid black;
+    border-radius: 5px;
 }

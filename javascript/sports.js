@@ -22,6 +22,7 @@ s1 = new SportHobbie("Volleyball",
         I am happy to return to Swansea's club as the <b>Treasurer</b> for the 24/25 season!`,
     "../media/photos/volleyball.jpeg",
     "../media/photos/v1.JPG");
+    
 s2 = new SportHobbie("Bouldering",
     `More recently, I have become a climber! After having some experience with rock climbing when I was younger 
         and joining the club at my high school for only £1 per session, 

@@ -2,6 +2,7 @@
     margin: 10px;
     border: solid 5px black;
     border-radius: 5px;
+    min-height: 330px;
 }
 
 .card-header,

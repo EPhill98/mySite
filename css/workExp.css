@@ -1,8 +1,8 @@
 .card {
-    margin: 10px;
+    margin: 35px;
     border: solid 5px black;
     border-radius: 5px;
-    min-height: 330px;
+    height: 420px;
 }
 
 .card-header,
@@ -14,4 +14,5 @@
     background-color: grey;
     border-top: black solid 2px;
     border-bottom: black solid 2px;
+    margin: auto;
 }

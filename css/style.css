@@ -29,6 +29,9 @@ html {
 }
 
 .custom-meInfo {
+    background-color: white;
+    border: solid 5px black;
+    border-radius: 5px;
     text-align: center;
     padding-top: 15px;
 }
@@ -79,4 +82,21 @@ h2 {
     width: auto;
     border: 5px solid black;
     border-radius: 5px;
+}
+
+.swansUniInfo{
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+}
+
+.swansUniInfo h2, .cityUInfo h2 {
+    margin: 2px;
+}
+
+.cityUInfo{
+    background-color: white;
+    border: 5px solid purple;
+    border-radius: 5px;
+    margin-top: 20px;
 }

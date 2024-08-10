@@ -13,5 +13,9 @@
     background-color: grey;
     border-top: black solid 2px;
     border-bottom: black solid 2px;
-    margin: 10px;
+    margin: auto;
+}
+
+.card-footer {
+    min-height: 200px;
 }

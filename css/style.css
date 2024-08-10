@@ -90,13 +90,23 @@ h2 {
     border-radius: 5px;
 }
 
-.swansUniInfo h2, .cityUInfo h2 {
-    margin: 2px;
-}
 
 .cityUInfo{
     background-color: white;
     border: 5px solid purple;
     border-radius: 5px;
     margin-top: 20px;
+}
+
+.swansUniInfo h2, .cityUInfo h2 {
+    margin: 2px;
+}
+
+.swansUniInfo, .cityUInfo {
+    text-align: center;
+    
+}
+.swansUniInfo ul, .cityUInfo ul{
+    list-style-type: none;
+
 }

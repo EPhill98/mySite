@@ -84,29 +84,36 @@ h2 {
     border-radius: 5px;
 }
 
-.swansUniInfo{
+.info h2 {
+    margin: 2px;
+}
+
+.info {
+    text-align: center;
+    
+}
+.info ul{
+    list-style-type: none;
+
+}
+
+.swansUni{
     background-color: white;
     border: 5px solid green;
     border-radius: 5px;
 }
 
-
-.cityUInfo{
+.cityU{
     background-color: white;
     border: 5px solid purple;
     border-radius: 5px;
     margin-top: 20px;
 }
 
-.swansUniInfo h2, .cityUInfo h2 {
-    margin: 2px;
+.pro1{
+    background-color: white;
+    border: 5px solid rgb(16, 145, 219);
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.swansUniInfo, .cityUInfo {
-    text-align: center;
-    
-}
-.swansUniInfo ul, .cityUInfo ul{
-    list-style-type: none;
-
-}

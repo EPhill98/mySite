@@ -16,6 +16,13 @@ html {
     z-index: -1;
 }
 
+.mainHeading{
+    background-color: white;
+    border-radius: 5px;
+    border: black solid 2px;
+    width: fit-content;
+}
+
 .content {
     position: relative;
     z-index: 1;

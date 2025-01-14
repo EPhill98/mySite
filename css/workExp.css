@@ -3,6 +3,8 @@
     margin: 35px;
     border: solid 5px black;
     border-radius: 5px;
+    height: fit-content;
+    width: fit-content;
 }
 
 .card-header,

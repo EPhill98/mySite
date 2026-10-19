@@ -8,18 +8,18 @@ class SportHobbie {
 }
 
 s1 = new SportHobbie("Volleyball",
-    `I have been playing volleyball for around 8 years after joining my local team in Stafford. 
+    `I have been playing volleyball for over 8 years, since joining my local team in Stafford. 
         Ever since, I have become hugely passionate about the sport. 
         After a few years, I was offered the chance to become a <b>Qualified Referee</b> through a course paid for by my local club. 
         Since then, I have refereed a number of games for my local club and the university. <br><br>
 
         I joined the Swansea University team in my first year and made the first team. 
         I was then made <b>captain</b> at the start of my second year. 
-        This was a great season for our team, winning the division and promotion, and I was honored to lead a great squad. 
-        Furthermore, I was elected as the <b>Club Development Officer</b>, where I organized a weekly intramural league focusing on getting new players interested in the sport. <br><br>
+        This was a great season for our team, winning the division and promotion, and I was honoured to lead a great squad. 
+        Furthermore, I was elected as the <b>Club Development Officer</b>, where I organised a weekly intramural league focusing on getting new players interested in the sport. <br><br>
     
         During my year abroad, I joined a social club hosted by CityU Hong Kong and met some great friends.
-        I am happy to return to Swansea's club as the <b>Treasurer</b> for the 24/25 season!`,
+        Back in Swansea, I served as the club's <b>Treasurer</b> for the 24/25 season and sat on the Students' Union <b>Sports Executive Committee</b>, helping run events such as Ladies' Day.`,
     "../media/photos/volleyball.jpeg",
     "../media/photos/v1.JPG");
     
@@ -33,7 +33,7 @@ s2 = new SportHobbie("Bouldering",
         This was a great hobby that I could do by myself or with friends to take a nice break 
         from the busy city and punishing humidity.`,
     "../media/photos/b1.jpg",
-    "../media/photos/b2.HEIC");
+    "../media/photos/b2.jpg");
 
 s3 = new SportHobbie("Hiking + Outdoor",
     `Another hobby I rediscovered during my time in Hong Kong was hiking. 

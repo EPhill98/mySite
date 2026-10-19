@@ -1,8 +1,8 @@
 const imgArry = [
                 "media/photos/hkhike.jpg",
                 "media/photos/hkSunset.jpeg",
-                "media/photos/cityU.HEIC",
-                "media/photos/swanGrad.jpeg",
+                "media/photos/cityU.jpg",
+                "media/photos/swanGrad.jpg",
                 ]
 var img = 1;
 

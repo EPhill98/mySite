@@ -146,3 +146,13 @@ main { padding: 40px 0 24px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media (max-width: 991px) { .hero-photo { max-height: 520px; object-fit: cover; object-position: center 30%; } }
 .role ul.tags { padding-left: 0; margin-top: 14px; }
+
+/* ---------- Consistency pass ---------- */
+.section-title-first { margin-top: 8px; }
+.logo-inline { height: 36px; width: auto; }
+.role-logos .logo-nomien { height: 40px; }
+.role-logos .logo-alacrity { height: 40px; }
+.role p { margin-bottom: 0; }
+.role p + p { margin-top: .75rem; }
+.panel .role-title + p, .panel .role-title + .role-org { margin-top: 2px; }
+.stat .label { font-size: .95rem; }

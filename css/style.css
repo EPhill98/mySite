@@ -156,3 +156,38 @@ main { padding: 40px 0 24px; }
 .role p + p { margin-top: .75rem; }
 .panel .role-title + p, .panel .role-title + .role-org { margin-top: 2px; }
 .stat .label { font-size: .95rem; }
+
+/* ---------- Work timeline ---------- */
+.timeline { list-style: none; padding: 0; margin: 0; position: relative; }
+.timeline::before {
+    content: ""; position: absolute; top: 8px; bottom: 8px; left: 172px; width: 2px; background: var(--line);
+}
+.tl-item { display: grid; grid-template-columns: 150px 44px 1fr; align-items: start; }
+.tl-item + .tl-item { margin-top: 24px; }
+.tl-meta { text-align: right; padding-top: 22px; }
+.tl-date { display: block; font-size: .85rem; font-weight: 700; color: var(--ink); }
+.tl-logo { margin-top: 10px; display: flex; justify-content: flex-end; }
+.tl-logo img { height: 34px; width: auto; max-width: 120px; object-fit: contain; }
+.tl-dot {
+    justify-self: center; margin-top: 26px; width: 14px; height: 14px; border-radius: 50%;
+    background: #fff; border: 3px solid var(--muted); position: relative; z-index: 1;
+}
+.tl-featured .tl-dot { border-color: var(--accent); background: var(--accent); box-shadow: 0 0 0 5px var(--accent-soft); }
+.tl-featured .tl-card { border: 2px solid var(--accent); }
+.tl-summary { margin-top: 10px !important; }
+.tl-points { margin: 10px 0 0; padding-left: 1.15rem; }
+.tl-points li { margin-bottom: 6px; }
+
+.compact-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; }
+.compact .role-logo { height: 34px; }
+.compact .role-title { font-size: 1.05rem; }
+
+@media (max-width: 767px) {
+    .timeline::before { left: 7px; }
+    .tl-item { grid-template-columns: 16px 1fr; column-gap: 14px; }
+    .tl-meta { grid-column: 2; grid-row: 1; text-align: left; padding-top: 0; display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+    .tl-logo { margin-top: 0; }
+    .tl-logo img { height: 24px; }
+    .tl-dot { grid-column: 1; grid-row: 1; margin-top: 4px; }
+    .tl-card { grid-column: 2; grid-row: 2; }
+}

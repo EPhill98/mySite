@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css?v=3">
+    <link rel="stylesheet" href="../css/style.css?v=4">
 </head>
 
 <body>
@@ -49,100 +49,93 @@
                 <h1>Where I've worked</h1>
                 <p>From building a startup's platform end to end, to .NET in a research team, to teaching code.</p>
             </header>
-            <article class="panel role featured">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">Co-founder &amp; Tech Lead <span class="badge-now">Now</span></h2>
+
+            <h2 class="section-title section-title-first">Software engineering</h2>
+            <ol class="timeline">
+                <li class="tl-item tl-featured">
+                    <div class="tl-meta">
+                        <span class="tl-date">Oct 2025 – Present</span>
+                        <div class="tl-logo"><img src="../media/logos/nomien.svg" alt="Nomien"></div>
+                    </div>
+                    <span class="tl-dot" aria-hidden="true"></span>
+                    <article class="panel role tl-card">
+                        <h3 class="role-title">Co-founder &amp; Tech Lead <span class="badge-now">Now</span></h3>
                         <p class="role-org">Nomien &middot; Alacrity Foundation Entrepreneurship Programme, Newport</p>
+                        <p class="tl-summary">A B2B platform where coffee roasters discover new café partners and sell their guest coffee, integrating with the systems roasters already run. I'm one of two full-time founders, supported by three advisors, and the sole engineer.</p>
+                        <ul class="tl-points"><li>Built the full stack in C# / .NET Razor Pages and PostgreSQL.</li><li>Provisioned Google Cloud with Terraform: Cloud Run, Cloud SQL and a container image registry, with separate staging and production environments.</li><li>Set up automated tests and a deployment pipeline that only routes traffic to a new Cloud Run revision once its smoke tests pass.</li><li>Develop AI-natively with Claude Code, Codex and Claude Design, and have experience with Junie.</li><li><b>3 roasters ready to join the pilot and over 30 cafés lined up.</b> Present Nomien at industry events.</li></ul>
+                        <ul class="tags"><li>C#</li><li>Razor Pages</li><li>PostgreSQL</li><li>Cloud Run</li><li>Cloud SQL</li><li>Terraform</li><li>CI/CD</li><li>Claude Code</li></ul>
+                        <div class="role-logos">
+                            <span>Visit</span>
+                            <a href="https://www.nomien.co.uk" target="_blank" rel="noopener" aria-label="Nomien website (opens in a new tab)">
+                                <img class="logo-nomien" src="../media/logos/nomien.svg" alt="Nomien"></a>
+                            <a href="https://alacrityfoundation.co.uk" target="_blank" rel="noopener" aria-label="Alacrity Foundation website (opens in a new tab)">
+                                <img class="logo-alacrity" src="../media/logos/alacrity-foundation.png" alt="Alacrity Foundation"></a>
+                        </div>
+                    </article>
+                </li>
+                <li class="tl-item">
+                    <div class="tl-meta">
+                        <span class="tl-date">Jun 2025 – Sep 2025</span>
+                        <div class="tl-logo"><img src="../media/photos/SeRP-Logo.png" alt="SeRP"></div>
                     </div>
-                    <div class="d-flex align-items-center gap-3"><span class="role-date">Oct 2025 – Present</span></div>
-                </div>
-                <ul>
-                        <li>Co-founded Nomien, a B2B platform where coffee roasters discover new café partners and sell their guest coffee, integrating with the back-end systems roasters already run.</li>
-                        <li>Sole engineer across the full stack: C# / .NET Razor Pages and PostgreSQL.</li>
-                        <li>Built the infrastructure on Google Cloud with Terraform: Cloud Run, Cloud SQL and a container image registry, with separate staging and production environments.</li>
-                        <li>Set up automated tests and a deployment pipeline that only routes traffic to a new Cloud Run revision once its smoke tests pass.</li>
-                        <li>Develop AI-natively with Claude Code, Codex and Claude Design, and have experience with Junie.</li>
-                        <li>3 roasters ready to join the pilot and over 30 cafés lined up. One of two full-time founders, supported by three advisors, and present Nomien at industry events.</li>
-                </ul>
-                <div class="role-logos">
-                    <a href="https://www.nomien.co.uk" target="_blank" rel="noopener" aria-label="Nomien website (opens in a new tab)">
-                        <img class="logo-nomien" src="../media/logos/nomien.svg" alt="Nomien"></a>
-                    <a href="https://alacrityfoundation.co.uk" target="_blank" rel="noopener" aria-label="Alacrity Foundation website (opens in a new tab)">
-                        <img class="logo-alacrity" src="../media/logos/alacrity-foundation.png" alt="Alacrity Foundation"></a>
-                </div>
-            </article>
-            <article class="panel role ">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">.NET Developer Intern</h2>
+                    <span class="tl-dot" aria-hidden="true"></span>
+                    <article class="panel role tl-card">
+                        <h3 class="role-title">.NET Developer Intern</h3>
                         <p class="role-org">Secure e-Research Platform (SeRP), Swansea</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/SeRP-Logo.png" alt="SeRP" loading="lazy"><span class="role-date">Jun 2025 – Sep 2025</span></div>
-                </div>
-                <ul>
-                        <li>Developed Impact Tracking, a web platform that tracks the impact of research projects: publications, funding acquired and coverage in the wider media.</li>
-                        <li>Worked on the C# / .NET back end with Entity Framework and PostgreSQL, using RESTful APIs, RabbitMQ and Hangfire, and integrated Form.io for data collection.</li>
-                        <li>Containerised back-end services with Docker and led unit testing of the platform's APIs.</li>
-                        <li>Worked in a team of 3 developers and a product owner, with daily stand-ups, Jira and GitHub.</li>
-                        <li>Represented SeRP at an outreach event held at the Welsh Parliament.</li>
-                </ul>
-            </article>
-            <article class="panel role ">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">Employability Intern</h2>
+                        <p class="tl-summary">Worked on Impact Tracking, a web platform that records the impact of research projects: publications, funding acquired and coverage in the wider media.</p>
+                        <ul class="tl-points"><li>Worked on the C# / .NET back end with Entity Framework and PostgreSQL, using RESTful APIs, RabbitMQ and Hangfire, and integrated Form.io for data collection.</li><li>Containerised back-end services with Docker and led unit testing of the platform's APIs.</li><li>Worked in a team of 3 developers and a product owner, with daily stand-ups, Jira and GitHub.</li><li>Represented SeRP at an outreach event held at the Welsh Parliament.</li></ul>
+                        <ul class="tags"><li>C#</li><li>.NET</li><li>Entity Framework</li><li>PostgreSQL</li><li>RabbitMQ</li><li>Hangfire</li><li>Docker</li></ul>
+                    </article>
+                </li>
+            </ol>
+
+            <h2 class="section-title">Earlier experience</h2>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <article class="panel role compact h-100">
+                        <div class="compact-head">
+                            <img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy">
+                            <span class="role-date">Sep 2024 – Feb 2025</span>
+                        </div>
+                        <h3 class="role-title">Employability Intern</h3>
                         <p class="role-org">Swansea University</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy"><span class="role-date">Sep 2024 – Feb 2025</span></div>
+                        <p class="mt-2">Helped deliver a careers fair with over 60 employers and 2,300 students, and was a first point of contact for employers and students at open days.</p>
+                    </article>
                 </div>
-                <ul>
-                        <li>Helped deliver a careers fair with over 60 employers, attended by 2,300 students.</li>
-                        <li>Represented the department at open days and events as the first point of contact for employers and students.</li>
-                        <li>Checked that roles advertised on the student jobs board met the required standards.</li>
-                        <li>Researched careers events at other universities to find improvements and collaborations.</li>
-                </ul>
-            </article>
-            <article class="panel role ">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">Teaching Assistant, Computer Science</h2>
+                <div class="col-md-6">
+                    <article class="panel role compact h-100">
+                        <div class="compact-head">
+                            <img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy">
+                            <span class="role-date">Aug 2022 – Jun 2023</span>
+                        </div>
+                        <h3 class="role-title">Teaching Assistant, Computer Science</h3>
                         <p class="role-org">Swansea University</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy"><span class="role-date">Aug 2022 – Jun 2023</span></div>
+                        <p class="mt-2">Supported coding labs of up to 100 undergraduates, reviewing code against requirements and best practice and signing off completed projects.</p>
+                    </article>
                 </div>
-                <ul>
-                        <li>Supported coding lab sessions of up to 100 undergraduates for four hours a week, alongside master's and PhD students.</li>
-                        <li>Reviewed students' code against requirements and best practice, and signed off completed projects.</li>
-                        <li>Asked questions to check and deepen students' understanding.</li>
-                </ul>
-            </article>
-            <article class="panel role ">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">Robotics Counsellor</h2>
-                        <p class="role-org">Chestnut Lake Camp, Pennsylvania (Camp America)</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/clcLogo.png" alt="Chestnut Lake Camp" loading="lazy"><span class="role-date">Jun 2022 – Aug 2022</span></div>
+                <div class="col-md-6">
+                    <article class="panel role compact h-100">
+                        <div class="compact-head">
+                            <img class="role-logo" src="../media/photos/clcLogo.png" alt="Chestnut Lake Camp" loading="lazy">
+                            <span class="role-date">Jun 2022 – Aug 2022</span>
+                        </div>
+                        <h3 class="role-title">Robotics Counsellor</h3>
+                        <p class="role-org">Chestnut Lake Camp, Pennsylvania</p>
+                        <p class="mt-2">Designed an 8-week unit teaching high-school students programming with Lego Boost, and provided pastoral care for 20 children.</p>
+                    </article>
                 </div>
-                <ul>
-                        <li>Designed an 8-week unit teaching basic programming to high-school students with Lego Boost.</li>
-                        <li>Provided pastoral care for a group of 20 children, and helped with music and photography activities.</li>
-                </ul>
-            </article>
-            <article class="panel role ">
-                <div class="role-head">
-                    <div>
-                        <h2 class="role-title">Sales Assistant</h2>
+                <div class="col-md-6">
+                    <article class="panel role compact h-100">
+                        <div class="compact-head">
+                            <img class="role-logo" src="../media/photos/sportsdirect-2021.svg" alt="Sports Direct" loading="lazy">
+                            <span class="role-date">Sep 2017 – Aug 2019</span>
+                        </div>
+                        <h3 class="role-title">Sales Assistant</h3>
                         <p class="role-org">Sports Direct, Stafford</p>
-                    </div>
-                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/sportsdirect-2021.svg" alt="Sports Direct" loading="lazy"><span class="role-date">Sep 2017 – Aug 2019</span></div>
+                        <p class="mt-2">Kept on after a Christmas temp role and trained across the store, handling stock-taking and audits. First Aid at Work trained.</p>
+                    </article>
                 </div>
-                <ul>
-                        <li>Started as a Christmas temp and was kept on and trained across the store.</li>
-                        <li>Handled stock-taking and audits, and completed a First Aid at Work course with St John Ambulance.</li>
-                </ul>
-            </article>
+            </div>
         </div>
     </main>
 

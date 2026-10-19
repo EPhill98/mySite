@@ -1,263 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Euan Phillips</title>
-    <!-- Bootstrap 5 CSS -->
+    <title>Work | Euan Phillips</title>
+    <meta name="description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:title" content="Work | Euan Phillips">
+    <meta property="og:description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ephill98.github.io/mySite/media/photos/nomien-pitch.jpg">
+    <meta name="theme-color" content="#faf8f5">
+    <link rel="icon" href="../media/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/workExp.css">
-    <script src="../javascript/sketch.js" defer></script>
 </head>
 
 <body>
-    <div class="container-fluid custom-head">
-        <div class="row">
-            <div class="col-12">
-                <h1>EUAN PHILLIPS</h1>
-            </div>
-            <div class="col-6 offset-3 ">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center iconsBox ">
-                        <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                            <i class="bi bi-github icon"></i>
-                        </a>
-                        <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                            <i class="bi bi-linkedin icon"></i>
-                        </a>
-                        <a class="icons" href="mailto:euan.98@live.co.uk">
-                            <i class="bi bi-envelope icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">My Site</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top site-nav" aria-label="Main">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Euan Phillips</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="../html/education.html">Education + Projects</a></li>
-                    <li class="nav-item"><a class="nav-link text-danger" href="../html/workExp.html">Work Experience</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="../html/sportsAndHobs.html">Sports and Hobbies</a>
-                    </li>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="workExp.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="education.html">Education &amp; Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sportsAndHobs.html">Sports &amp; Hobbies</a></li>
                 </ul>
+                <a class="btn btn-accent btn-sm my-2 my-lg-0" href="../media/Euan_Phillips_CV.pdf" target="_blank" rel="noopener">
+                    <i class="bi bi-download me-1" aria-hidden="true"></i>Download CV</a>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5 mb-5 mainHeading">
-        <h1>Work Experience</h1>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-header">Co-founder &amp; Tech Lead</div>
-                    <div class="card-body nomien-body">
-                        <div class="row align-items-center">
-                            <div class="col-lg-7 col-md-12">
-                                <ul>
-                                    <li>Co-founded Nomien (formerly BrewNest), a B2B platform where coffee roasters
-                                        discover new café partners and sell their guest coffee, integrating with the
-                                        roasters' existing back-end systems.</li>
-                                    <li>One of two full-time founders, supported by three advisors, through the Alacrity
-                                        Foundation Entrepreneurship Programme.</li>
-                                    <li>Sole engineer, owning the full stack: .NET Razor Pages and PostgreSQL.</li>
-                                    <li>Built the infrastructure on Google Cloud with Terraform: Cloud Run, Cloud SQL and
-                                        a container image registry, with separate staging and production
-                                        environments.</li>
-                                    <li>Set up automated tests and a deployment pipeline that only routes traffic to a
-                                        new Cloud Run revision once its smoke tests pass.</li>
-                                    <li>3 roasters ready to join the pilot and over 30 cafés lined up. Present Nomien at
-                                        industry events alongside engineering work.</li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-5 col-md-12 text-center">
-                                <figure class="nomien-photo">
-                                    <img src="../media/photos/nomien-pitch.jpg"
-                                        alt="Euan presenting Nomien at a Cyber Innovation Hub event"
-                                        class="img-fluid" loading="lazy" width="800" height="1109">
-                                    <figcaption>Presenting Nomien at a Cyber Innovation Hub event</figcaption>
-                                </figure>
-                            </div>
-                        </div>
+    <main id="main">
+        <div class="container">
+            <header class="page-header">
+                <span class="eyebrow">Experience</span>
+                <h1>Work</h1>
+                <p>From building a startup's platform end to end, to .NET in a research team, to teaching code.</p>
+            </header>
+            <article class="panel role featured">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">Co-founder &amp; Tech Lead <span class="badge-now">Now</span></h2>
+                        <p class="role-org">Nomien &middot; Alacrity Foundation Entrepreneurship Programme, Newport</p>
                     </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-12 align-self-center">
-                            Nomien &middot; Alacrity Foundation, Newport <br>
-                            October 2025 - Present
-                        </div>
-                    </div>
+                    <div class="d-flex align-items-center gap-3"><span class="role-date">Oct 2025 – Present</span></div>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="card-header">.NET Developer Intern</div>
-                    <div class="card-body">
-                        <ul>
-                            <li>Developed Impact Tracking, a web platform that tracks the impact of research projects:
-                                publications, funding acquired and coverage in the wider media.</li>
-                            <li>Worked on the C# / .NET back end with Entity Framework and PostgreSQL, using RESTful APIs,
-                                RabbitMQ and Hangfire, and integrated Form.io for data collection.</li>
-                            <li>Containerised the back-end services with Docker and led the unit testing of the
-                                platform's APIs.</li>
-                            <li>Worked in a team of 3 developers and a product owner, with daily stand-ups, Jira and
-                                GitHub.</li>
-                            <li>Represented SeRP at an outreach event held at the Welsh Parliament.</li>
-                        </ul>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-6 align-self-center">
-                            SeRP <br>
-                            June 2025 - September 2025
-                        </div>
-                        <div class="col-5 offset-1 align-self-center">
-                            <img src="../media/photos/SeRP-Logo.png" alt="Responsive image" class="img-fluid border-0"
-                                width="200" height="150">
-                        </div>
-                    </div>
+                <ul>
+                        <li>Co-founded Nomien, a B2B platform where coffee roasters discover new café partners and sell their guest coffee, integrating with the back-end systems roasters already run.</li>
+                        <li>Sole engineer across the full stack: C# / .NET Razor Pages and PostgreSQL.</li>
+                        <li>Built the infrastructure on Google Cloud with Terraform: Cloud Run, Cloud SQL and a container image registry, with separate staging and production environments.</li>
+                        <li>Set up automated tests and a deployment pipeline that only routes traffic to a new Cloud Run revision once its smoke tests pass.</li>
+                        <li>Develop AI-natively with Claude Code, Codex and Claude Design, and have experience with Junie.</li>
+                        <li>3 roasters ready to join the pilot and over 30 cafés lined up. One of two full-time founders, supported by three advisors, and present Nomien at industry events.</li>
+                </ul>
+                <div class="role-logos">
+                    <a href="https://www.nomien.co.uk" target="_blank" rel="noopener" aria-label="Nomien website (opens in a new tab)">
+                        <img class="logo-nomien" src="../media/logos/nomien.svg" alt="Nomien"></a>
+                    <a href="https://alacrityfoundation.co.uk" target="_blank" rel="noopener" aria-label="Alacrity Foundation website (opens in a new tab)">
+                        <img class="logo-alacrity" src="../media/logos/alacrity-foundation.png" alt="Alacrity Foundation"></a>
                 </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="card-header">Employability Intern</div>
-                    <div class="card-body">
-                        <ul>
-                            <li>Worked with the team to deliver a successful careers fair, featuring over 60 employers
-                                and attended by 2,300 students.</li>
-                            <li>Represented the department at open days and various events, serving as the first point
-                                of contact for both employers and students.</li>
-                            <li>I was responsible for verifying and confirming that the roles advertised on the student
-                                jobs board met the required standards.</li>
-                            <li>I conducted research into career event opportunities at other universities to identify
-                                potential improvements and collaborations.</li>
-                        </ul>
+            </article>
+            <article class="panel role ">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">.NET Developer Intern</h2>
+                        <p class="role-org">Secure e-Research Platform (SeRP), Swansea</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/SeRP-Logo.png" alt="SeRP" loading="lazy"><span class="role-date">Jun 2025 – Sep 2025</span></div>
+                </div>
+                <ul>
+                        <li>Developed Impact Tracking, a web platform that tracks the impact of research projects: publications, funding acquired and coverage in the wider media.</li>
+                        <li>Worked on the C# / .NET back end with Entity Framework and PostgreSQL, using RESTful APIs, RabbitMQ and Hangfire, and integrated Form.io for data collection.</li>
+                        <li>Containerised back-end services with Docker and led unit testing of the platform's APIs.</li>
+                        <li>Worked in a team of 3 developers and a product owner, with daily stand-ups, Jira and GitHub.</li>
+                        <li>Represented SeRP at an outreach event held at the Welsh Parliament.</li>
+                </ul>
+            </article>
+            <article class="panel role ">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">Employability Intern</h2>
+                        <p class="role-org">Swansea University</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy"><span class="role-date">Sep 2024 – Feb 2025</span></div>
+                </div>
+                <ul>
+                        <li>Helped deliver a careers fair with over 60 employers, attended by 2,300 students.</li>
+                        <li>Represented the department at open days and events as the first point of contact for employers and students.</li>
+                        <li>Checked that roles advertised on the student jobs board met the required standards.</li>
+                        <li>Researched careers events at other universities to find improvements and collaborations.</li>
+                </ul>
+            </article>
+            <article class="panel role ">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">Teaching Assistant, Computer Science</h2>
+                        <p class="role-org">Swansea University</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy"><span class="role-date">Aug 2022 – Jun 2023</span></div>
+                </div>
+                <ul>
+                        <li>Supported coding lab sessions of up to 100 undergraduates for four hours a week, alongside master's and PhD students.</li>
+                        <li>Reviewed students' code against requirements and best practice, and signed off completed projects.</li>
+                        <li>Asked questions to check and deepen students' understanding.</li>
+                </ul>
+            </article>
+            <article class="panel role ">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">Robotics Counsellor</h2>
+                        <p class="role-org">Chestnut Lake Camp, Pennsylvania (Camp America)</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/clcLogo.png" alt="Chestnut Lake Camp" loading="lazy"><span class="role-date">Jun 2022 – Aug 2022</span></div>
+                </div>
+                <ul>
+                        <li>Designed an 8-week unit teaching basic programming to high-school students with Lego Boost.</li>
+                        <li>Provided pastoral care for a group of 20 children, and helped with music and photography activities.</li>
+                </ul>
+            </article>
+            <article class="panel role ">
+                <div class="role-head">
+                    <div>
+                        <h2 class="role-title">Sales Assistant</h2>
+                        <p class="role-org">Sports Direct, Stafford</p>
+                    </div>
+                    <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/sportsdirect-2021.svg" alt="Sports Direct" loading="lazy"><span class="role-date">Sep 2017 – Aug 2019</span></div>
+                </div>
+                <ul>
+                        <li>Started as a Christmas temp and was kept on and trained across the store.</li>
+                        <li>Handled stock-taking and audits, and completed a First Aid at Work course with St John Ambulance.</li>
+                </ul>
+            </article>
+        </div>
+    </main>
 
-                    </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-6 align-self-center">
-                            Swansea University <br>
-                            September 2024 - February 2025
-                        </div>
-                        <div class="col-5 offset-1 align-self-center">
-                            <img src="../media/photos/swansea-university-2017.en.png" alt="Responsive image"
-                                class="img-fluid border-0" width="200" height="150">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="card-header">Teaching Assistant</div>
-                    <div class="card-body">
-                        <ul>
-                            <li>Collaborating with master's and PhD students for four hours weekly to support
-                                undergraduate students in coding lab sessions, each accommodating up to 100 students.
-                            </li>
-                            <li>Counseling students on their code, verifying that their work met all requirements and
-                                adhered to best coding practices, and signing off on completed projects.</li>
-                            <li>Actively engaging with students by asking questions to assess and deepen their
-                                understanding.</li>
-                        </ul>
-                    </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-6 align-self-center">
-                            Swansea University <br>
-                            August 2022 - June 2023
-
-                        </div>
-                        <div class="col-5 offset-1 align-self-center">
-                            <img src="../media/photos/swansea-university-2017.en.png" alt="Responsive image"
-                                class="img-fluid border-0" width="200" height="150">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="card-header">Robotics Counselor</div>
-                    <div class="card-body">
-                        <ul>
-                            <li>Designed a unit of lessons to teach basic programming skills to high school students
-                                during an 8-week summer camp at Chestnut Lake Camp.</li>
-                            <li>Utilized the visual programming tool Lego Boost to introduce basic scripting and
-                                computer logic.</li>
-                            <li>Provided pastoral care to a group of 20 children.</li>
-                            <li>Contributed to other camp activities, including music and photography.</li>
-                        </ul>
-
-                    </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-6 align-self-center">
-                            Chestnut Lake Camp <br>
-                            Jun 2022 – Aug 2022
-                        </div>
-                        <div class="col-5 offset-1 align-self-center">
-                            <img src="../media/photos/clcLogo.png" alt="Responsive image" class="img-fluid border-0"
-                                width="200" height="150">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 offset-md-3 offset-sm-0">
-                <div class="card ">
-                    <div class="card-header">Sales Assistant</div>
-                    <div class="card-body">
-                        <ul>
-                            <li>Started at the Stafford branch as a Christmas Temp and was retained and trained in
-                                various areas.</li>
-                            <li>Responsible for stock taking, auditing, and double-counting in the back of house.</li>
-                            <li>Attended a First Aid at Work course with St. John Ambulance.</li>
-                            <li>Developed strong customer service skills by addressing customer questions and concerns.
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="card-footer d-flex justify-content-between">
-                        <div class="col-6 align-self-center">
-                            Sports Direct<br>
-                            Sept 2017 - August 2019
-                        </div>
-                        <div class="col-5 offset-1 align-self-center">
-                            <img src="../media/photos/sportsdirect-2021.svg" alt="Responsive image"
-                                class="img-fluid border-0" width="200" height="150">
-                        </div>
-                    </div>
-                </div>
+    <footer class="site-footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div>&copy; 2026 Euan Phillips &middot; <a href="mailto:euan.98@live.co.uk">euan.98@live.co.uk</a></div>
+            <div class="social">
+                <a href="https://github.com/EPhill98" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/euan-phillips/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                <a href="mailto:euan.98@live.co.uk" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
-    </div>
-    <!-- Bootstrap 5 JS and Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-<footer>
-    <div class="col-6 offset-3 mt-3 mb-5">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center iconsBox ">
-                <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                    <i class="bi bi-github icon"></i>
-                </a>
-                <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                    <i class="bi bi-linkedin icon"></i>
-                </a>
-                <a class="icons" href="mailto:euan.98@live.co.uk">
-                    <i class="bi bi-envelope icon"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>

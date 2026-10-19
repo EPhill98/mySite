@@ -1,288 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Euan Phillips</title>
+    <title>Education &amp; Projects | Euan Phillips</title>
+    <meta name="description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:title" content="Education &amp; Projects | Euan Phillips">
+    <meta property="og:description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ephill98.github.io/mySite/media/photos/nomien-pitch.jpg">
+    <meta name="theme-color" content="#faf8f5">
+    <link rel="icon" href="../media/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <script src="../javascript/sketch.js" defer></script>
 </head>
 
 <body>
-    <div class="flex-container col-12 custom-head">
-        <div class="row">
-            <div class="col-12">
-                <h1>EUAN PHILLIPS</h1>
-            </div>
-            <div class="col-6 offset-3 ">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center iconsBox ">
-                        <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                            <i class="bi bi-github icon"></i>
-                        </a>
-                        <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                            <i class="bi bi-linkedin icon"></i>
-                        </a>
-                        <a class="icons" href="mailto:euan.98@live.co.uk">
-                            <i class="bi bi-envelope icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">My Site</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top site-nav" aria-label="Main">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Euan Phillips</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link text-danger" href="../html/education.html">Education +
-                            Projects</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="../html/workExp.html">Work Experience</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="../html/sportsAndHobs.html">Sports and Hobbies</a>
-                    </li>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="workExp.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="education.html">Education &amp; Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sportsAndHobs.html">Sports &amp; Hobbies</a></li>
                 </ul>
+                <a class="btn btn-accent btn-sm my-2 my-lg-0" href="../media/Euan_Phillips_CV.pdf" target="_blank" rel="noopener">
+                    <i class="bi bi-download me-1" aria-hidden="true"></i>Download CV</a>
             </div>
         </div>
     </nav>
 
+    <main id="main">
+        <div class="container">
+            <header class="page-header">
+                <span class="eyebrow">Education &amp; Projects</span>
+                <h1>What I've studied and built</h1>
+                <p>A First-class Computer Science degree, a year in Hong Kong, and the projects I'm proudest of.</p>
+            </header>
 
-    <div class="container mt-5 mainHeading">
-        <h1>Education + Projects</h1>
-    </div>
-
-    <div class="p3">
-
-        <div class="container mt-4 p1 info swansUni col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>BSc Computer Science with Year Abroad <br> Swansea University</h2>
+            <h2 class="section-title mt-0">Projects</h2>
+            <div class="row g-3">
+                <div class="col-lg-6">
+                    <article class="panel h-100 role featured">
+                        <div class="role-head"><div><h3 class="role-title">Nomien</h3><p class="role-org">Startup platform &middot; 2025 – present</p></div>
+                            <a href="https://www.nomien.co.uk" target="_blank" rel="noopener" aria-label="Nomien website (opens in a new tab)"><img src="../media/logos/nomien.svg" alt="Nomien" style="height:34px"></a></div>
+                        <p class="mt-3 mb-0">A B2B platform where coffee roasters discover new café partners and sell their guest coffee, integrating
+                            with the back-end systems they already use. I've built it from scratch as co-founder and sole engineer, with
+                            3 roasters ready to join the pilot and over 30 cafés lined up.</p>
+                        <ul class="tags"><li>C#</li><li>Razor Pages</li><li>PostgreSQL</li><li>Cloud Run</li><li>Cloud SQL</li><li>Terraform</li><li>CI/CD</li><li>Smoke tests</li></ul>
+                    </article>
+                </div>
+                <div class="col-lg-6">
+                    <article class="panel h-100 role">
+                        <div class="role-head"><div><h3 class="role-title">Impact Tracking</h3><p class="role-org">Internship project at SeRP &middot; 2025</p></div></div>
+                        <p class="mt-3 mb-0">A web platform that tracks the impact of research projects, such as third-party publications, funding
+                            acquired and coverage in the wider media. I worked on the .NET back end and led unit testing of its APIs.</p>
+                        <ul class="tags"><li>C#</li><li>.NET</li><li>Entity Framework</li><li>PostgreSQL</li><li>REST APIs</li><li>RabbitMQ</li><li>Hangfire</li><li>Form.io</li><li>Docker</li></ul>
+                    </article>
+                </div>
+                <div class="col-lg-6">
+                    <article class="panel h-100 role">
+                        <div class="role-head"><div><h3 class="role-title">"Let's Go!" iOS app</h3><p class="role-org">Final-year dissertation &middot; graded a First</p></div></div>
+                        <p class="mt-3 mb-0">A social app that encourages a healthy, active lifestyle. Each day users get three new activities to fit into
+                            their day, then share a photo of each with friends and family.</p>
+                        <ul class="tags"><li>Swift</li><li>SwiftUI</li><li>MVVM</li><li>Firebase</li><li>Git</li></ul>
+                        <div class="project-shots">
+                            <img src="../media/photos/letsGo.jpg" alt="Screenshot of the Let's Go! app" loading="lazy">
+                            <img src="../media/photos/letsGo2.png" alt="Second screenshot of the Let's Go! app" loading="lazy">
+                        </div>
+                    </article>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex flex-column gap-3 h-100">
+                        <article class="panel role flex-fill">
+                            <div class="role-head"><div><h3 class="role-title">Trivia Quiz app</h3><p class="role-org">Android</p></div>
+                                <a class="small" href="https://github.com/EPhill98/QuizApp" target="_blank" rel="noopener">View on GitHub</a></div>
+                            <p class="mt-3 mb-0">Users pick a category, difficulty and number of questions, which are pulled from an API. Firebase handles
+                                sign-in and stores results, and a pie chart lets users track their progress.</p>
+                            <ul class="tags"><li>Kotlin</li><li>XML</li><li>Firebase</li></ul>
+                        </article>
+                        <article class="panel role flex-fill">
+                            <div class="role-head"><div><h3 class="role-title">Gem Collector 2D game</h3><p class="role-org">Software Engineering module &middot; team of 7</p></div>
+                                <a class="small" href="https://github.com/EPhill98/JavaFxGame-Gem-Colletor" target="_blank" rel="noopener">View on GitHub</a></div>
+                            <p class="mt-3 mb-0">A maze game where players collect gems while avoiding enemies, designed with UML and built using Scrum.</p>
+                            <ul class="tags"><li>Java</li><li>JavaFX</li><li>UML</li><li>Scrum</li></ul>
+                        </article>
+                    </div>
                 </div>
             </div>
-            <div class="row">
 
-                <p>Started in September 2020 with a foundation year, transferring to include a year abroad.</p>
-                <ul>
-                    <li>Graduated with <b>First-class Honours.</b></li>
-                    <li><b>Graduated July 2025</b>, after a five-year course including a foundation year and a year abroad.</li>
-                    <li><b>Teaching Assistant</b> for Computer Science Department at Swansea.</li>
-                </ul>
-
-            </div>
-            <div class="row">
-                <h4>Studied Modules include</h4>
-                <ul>
-                    <li>Problem Solving and Programming</li>
-                    <li>Software Engineering</li>
-                    <li>Mobile App Development</li>
-                    <li>Algorithms</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="container info cityU col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>CityU <br> Hong Kong</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>Studied as part of my year abroad scheme during the 23/24 academic year. This was an amazing
-                        opportunity to live and experience a different culture.</p>
-                    <div class="row">
-                        <p>Studied Modules include:</p>
+            <h2 class="section-title">Education</h2>
+            <div class="row g-3">
+                <div class="col-lg-7">
+                    <article class="panel h-100 role">
+                        <div class="role-head"><div><h3 class="role-title">BSc Computer Science with Year Abroad</h3><p class="role-org">Swansea University</p></div>
+                            <div class="d-flex align-items-center gap-3"><img class="role-logo" src="../media/photos/swansea-university-2017.en.png" alt="Swansea University" loading="lazy"><span class="role-date">Sep 2020 – Jul 2025</span></div></div>
                         <ul>
-                            <li>Media Computing</li>
-                            <li>Introduction to Data Science</li>
-                            <li>Data Visualization</li>
-                            <li>Fundamentals of Internet Applications Development</li>
+                            <li><b>First-class Honours</b> (73% average), with a First for the dissertation project.</li>
+                            <li>Five-year course including a foundation year and a year abroad.</li>
+                            <li>Teaching Assistant for the Computer Science department.</li>
                         </ul>
-                    </div>
+                        <ul class="tags"><li>Problem Solving &amp; Programming</li><li>Software Engineering</li><li>Mobile App Development</li><li>Algorithms</li></ul>
+                    </article>
+                </div>
+                <div class="col-lg-5">
+                    <article class="panel h-100 role">
+                        <div class="role-head"><div><h3 class="role-title">Year abroad</h3><p class="role-org">City University of Hong Kong</p></div><span class="role-date">2023 – 2024</span></div>
+                        <p class="mt-3 mb-0">An amazing chance to live in and experience a different culture, while studying data and web modules.</p>
+                        <ul class="tags"><li>Media Computing</li><li>Intro to Data Science</li><li>Data Visualisation</li><li>Internet Applications Development</li></ul>
+                    </article>
                 </div>
             </div>
         </div>
+    </main>
 
-        <div class="container info nomien col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>Nomien <br> Startup Platform</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>
-                        A B2B platform where coffee roasters discover new café partners and sell their guest coffee,
-                        integrating with the back-end systems they already use. I've built it from scratch as
-                        co-founder and sole engineer, with 3 roasters ready to join the pilot and over 30 cafés lined
-                        up.
-                    </p>
-                    <div class="row">
-                        <p>Technologies include:</p>
-                        <ul>
-                            <li>C# / .NET Razor Pages</li>
-                            <li>PostgreSQL</li>
-                            <li>Google Cloud Run, Cloud SQL and a container image registry</li>
-                            <li>Terraform</li>
-                            <li>Automated tests and a deployment pipeline gated on smoke tests</li>
-                        </ul>
-                    </div>
-                </div>
+    <footer class="site-footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div>&copy; 2026 Euan Phillips &middot; <a href="mailto:euan.98@live.co.uk">euan.98@live.co.uk</a></div>
+            <div class="social">
+                <a href="https://github.com/EPhill98" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/euan-phillips/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                <a href="mailto:euan.98@live.co.uk" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
+    </footer>
 
-        <div class="container info pro2 col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>Impact Tracking <br> Internship Project</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>
-                        A web platform built at SeRP that tracks the impact of research projects, such as third-party
-                        publications, funding acquired and coverage in the wider media.
-                    </p>
-                    <div class="row">
-                        <p>Technologies include:</p>
-                        <ul>
-                            <li>C#, .NET and Entity Framework</li>
-                            <li>PostgreSQL and RESTful APIs</li>
-                            <li>RabbitMQ, Hangfire and Form.io</li>
-                            <li>Docker</li>
-                            <li>Unit testing</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container info pro1 col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>"Let's Go!" - iOS Photo Sharing App <br> Project</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>
-                        An iOS application designed and implemented from scratch
-                        as part of my final year project. The app encouraged a
-                        healthy, active lifestyle by allowing users to share
-                        photos of 3 randomly chosen daily activities with friends and family.
-                    </p>
-                    <div class="row">
-                        <p>Technologies include:</p>
-                        <ul>
-                            <li>Swift & SwiftUI</li>
-                            <li>Firebase</li>
-                            <li>JavaScript</li>
-                            <li>Git/GitHub</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="row justify-content-center mb-2">
-                    <div class="col-3 offset-1">
-                        <img src="../media/photos/letsGo.jpg" alt="Screenshot of the Let's Go! app" class="img-fluid projectTag"
-                            width="100" height="150">
-                    </div>
-                    <div class="col-3 offset-1">
-                        <img src="../media/photos/letsGo2.png" alt="Screenshot of the Let's Go! app" class="img-fluid projectTag"
-                            width="100" height="150">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container info pro1 col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>2D Game Gem Collector <br> Project</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>
-                        Coursework for Software Engineering module. As a team of 7, we designed and implemented a 2D
-                        game.
-                        The game's goal was to work your way through the maze to the exit, collecting gems while
-                        avoiding
-                        certain characters.
-                    </p>
-                    <div class="row">
-                        <p>Technologies include:</p>
-                        <ul>
-                            <li>Java and JavaFX</li>
-                            <li>Git/GitHub</li>
-                            <li>UML design diagrams</li>
-                            <li>Scrum agile development methodology</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container info pro2 col-10 justify-content-center">
-            <div class="row">
-                <div class="col mb-2">
-                    <h2>Trivia Quiz App <br> Project</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <p>
-                        A trivia quiz app designed and implemented from scratch.
-                        The app allows users to select a category, difficulty and number of questions.
-                        The app then fetches questions from an API and displays them to the user.
-                        Hosted on Firebase for authenticating users and storing user data.
-                        This data is then represented in a pie chart for users to track progress.
-
-                    </p>
-                    <div class="row">
-                        <p>Technologies include:</p>
-                        <ul>
-                            <li>Kotlin</li>
-                            <li>Firebase</li>
-                            <li>XML</li>
-                            <li>GitHub</li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-<footer>
-    <div class="col-6 offset-3 mt-3 mb-5">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center iconsBox ">
-                <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                    <i class="bi bi-github icon"></i>
-                </a>
-                <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                    <i class="bi bi-linkedin icon"></i>
-                </a>
-                <a class="icons" href="mailto:euan.98@live.co.uk">
-                    <i class="bi bi-envelope icon"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
 
 </html>

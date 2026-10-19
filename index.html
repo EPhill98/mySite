@@ -1,107 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Euan Phillips</title>
+    <meta name="description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:title" content="Euan Phillips">
+    <meta property="og:description" content="Euan Phillips: full-stack .NET developer and co-founder &amp; tech lead of Nomien. First-class Computer Science graduate from Swansea University.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ephill98.github.io/mySite/media/photos/nomien-pitch.jpg">
+    <meta name="theme-color" content="#faf8f5">
+    <link rel="icon" href="media/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <link rel="stylesheet" href="css/style.css">
-    <script src="javascript/sketch.js" defer></script>
 </head>
 
 <body>
-    <div class="flex-container col-12 custom-head">
-        <div class="row">
-            <div class="col-12">
-                <h1>EUAN PHILLIPS</h1>
-            </div>
-            <div class="col-6 offset-3">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center iconsBox">
-                        <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                            <i class="bi bi-github icon"></i>
-                        </a>
-                        <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                            <i class="bi bi-linkedin icon"></i>
-                        </a>
-                        <a class="icons" href="mailto:euan.98@live.co.uk">
-                            <i class="bi bi-envelope icon"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-danger" href="index.html">My Site</a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top site-nav" aria-label="Main">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Euan Phillips</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="html/education.html">Education + Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="html/workExp.html">Work Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="html/sportsAndHobs.html">Sports and Hobbies</a></li>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html/workExp.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html/education.html">Education &amp; Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="html/sportsAndHobs.html">Sports &amp; Hobbies</a></li>
                 </ul>
+                <a class="btn btn-accent btn-sm my-2 my-lg-0" href="media/Euan_Phillips_CV.pdf" target="_blank" rel="noopener">
+                    <i class="bi bi-download me-1" aria-hidden="true"></i>Download CV</a>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5 mb-5 mainHeading">
-        <h1>Welcome!</h1>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6 offset-md-0 offset-3">
-                <img src="media/photos/cityU.jpg" id="homeImg" alt="Photo of Euan" class="img-fluid" width="400"
-                    height="250">
-            </div>
-            <div class="col-md-6 custom-meIntro align-self-center mt-3">
-                <p>
-                    Hi, I'm Euan, co-founder and tech lead of <b>Nomien</b>. Nomien is a B2B platform that helps
-                    coffee roasters discover new café partners and sell their guest coffee, and it integrates with the
-                    systems roasters already run.
-                </p>
-                <p>
-                    I build the whole platform myself. It's a .NET Razor Pages app on PostgreSQL, deployed to Google
-                    Cloud Run and Cloud SQL with Terraform. Each release goes through an automated pipeline that only
-                    sends traffic to the new version once its smoke tests pass. We're building Nomien through the
-                    Alacrity Foundation Entrepreneurship Programme, with 3 roasters ready to join our pilot and over
-                    30 cafés lined up.
-                </p>
-                <p>
-                    Before Nomien, I graduated with a First in Computer Science from Swansea University, including a
-                    year at CityU Hong Kong, and worked as a .NET developer intern at SeRP.
-                </p>
-                </p>
-            </div>
-        </div>
-    </div>
-    <footer class="mt-3 mb-5">
-        <div class="col-6 offset-3">
-            <div class="row justify-content-center">
-                <div class="col-12 text-center iconsBox">
-                    <a class="icons" href="https://github.com/EPhill98" target="_blank">
-                        <i class="bi bi-github icon"></i>
-                    </a>
-                    <a class="icons" href="https://www.linkedin.com/in/euan-phillips/" target="_blank">
-                        <i class="bi bi-linkedin icon"></i>
-                    </a>
-                    <a class="icons" href="mailto:euan.98@live.co.uk">
-                        <i class="bi bi-envelope icon"></i>
-                    </a>
+    <main id="main">
+        <div class="container">
+            <section class="hero row align-items-center gx-4 gy-4 gx-lg-5">
+                <div class="col-lg-7">
+                    <span class="eyebrow">Full-stack .NET developer</span>
+                    <h1>Hi, I'm Euan.</h1>
+                    <p class="lead">Co-founder &amp; Tech Lead at <a href="https://www.nomien.co.uk" target="_blank" rel="noopener">Nomien</a>, a B2B platform for speciality coffee.</p>
+                    <p>Nomien helps coffee roasters discover new café partners and sell their guest coffee, and it integrates
+                        with the systems roasters already run. I'm the sole engineer, so I own everything from the data
+                        model to the cloud infrastructure.</p>
+                    <p>Before Nomien, I graduated with a First in Computer Science from Swansea University, including a year
+                        at CityU Hong Kong, and worked as a .NET developer intern at SeRP.</p>
+                    <div class="cta-row">
+                        <a class="btn btn-accent" href="media/Euan_Phillips_CV.pdf" target="_blank" rel="noopener"><i class="bi bi-download me-1" aria-hidden="true"></i>Download CV</a>
+                        <a class="btn btn-ghost" href="html/workExp.html">See my work</a>
+                        <a class="btn btn-ghost" href="mailto:euan.98@live.co.uk"><i class="bi bi-envelope me-1" aria-hidden="true"></i>Get in touch</a>
+                    </div>
                 </div>
+                <div class="col-lg-5">
+                    <figure class="m-0 photo-rotator" aria-roledescription="carousel" aria-label="Photos of Euan">
+                        <img id="homeImg" class="hero-photo w-100" src="media/photos/nomien-pitch.jpg"
+                            alt="Euan presenting Nomien at a Cyber Innovation Hub event" width="800" height="1109">
+                        <figcaption class="hero-photo-caption">
+                            <span id="homeCaption" aria-live="polite">Presenting Nomien at a Cyber Innovation Hub event</span>
+                            <button id="rotatorToggle" type="button" class="btn btn-link btn-sm p-0 ms-2 align-baseline"
+                                aria-label="Pause photos"><i class="bi bi-pause-circle" aria-hidden="true"></i></button>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section aria-labelledby="highlights">
+                <h2 class="section-title" id="highlights">Highlights</h2>
+                <div class="row g-3">
+                    <div class="col-md-4"><div class="panel stat"><div class="num">3 roasters</div><div class="label">ready to join the Nomien pilot, with over 30 cafés lined up</div></div></div>
+                    <div class="col-md-4"><div class="panel stat"><div class="num">1 engineer</div><div class="label">building the whole platform, from the database to Terraform-managed Google Cloud infrastructure</div></div></div>
+                    <div class="col-md-4"><div class="panel stat"><div class="num">First (73%)</div><div class="label">BSc Computer Science, Swansea University, with a year at CityU Hong Kong</div></div></div>
+                </div>
+            </section>
+
+            <section aria-labelledby="skills">
+                <h2 class="section-title" id="skills">What I work with</h2>
+                <div class="row g-3">
+                    <div class="col-md-6 col-lg-3"><div class="panel skill-group h-100"><h3>Back end</h3>
+                        <ul class="tags"><li>C#</li><li>.NET</li><li>Razor Pages</li><li>Entity Framework</li><li>REST APIs</li><li>RabbitMQ</li><li>Hangfire</li></ul></div></div>
+                    <div class="col-md-6 col-lg-3"><div class="panel skill-group h-100"><h3>Data &amp; cloud</h3>
+                        <ul class="tags"><li>PostgreSQL</li><li>Google Cloud Run</li><li>Cloud SQL</li><li>Terraform</li><li>Docker</li></ul></div></div>
+                    <div class="col-md-6 col-lg-3"><div class="panel skill-group h-100"><h3>Delivery</h3>
+                        <ul class="tags"><li>CI/CD</li><li>Automated &amp; smoke tests</li><li>Unit testing</li><li>Git &amp; GitHub</li><li>Agile</li></ul></div></div>
+                    <div class="col-md-6 col-lg-3"><div class="panel skill-group h-100"><h3>AI-native development</h3>
+                        <ul class="tags"><li>Claude Code</li><li>Codex</li><li>Junie</li><li>Claude Design</li></ul></div></div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+            <div>&copy; 2026 Euan Phillips &middot; <a href="mailto:euan.98@live.co.uk">euan.98@live.co.uk</a></div>
+            <div class="social">
+                <a href="https://github.com/EPhill98" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/euan-phillips/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                <a href="mailto:euan.98@live.co.uk" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="javascript/homepage.js"></script>
 </body>
 
